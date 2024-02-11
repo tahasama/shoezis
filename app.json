@@ -16,7 +16,11 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/HelveticaNeue-Regular.otf"]
+          "fonts": [
+            "./assets/fonts/HelveticaNeue-Regular.otf",
+            "./assets/fonts/HelveticaNeue-Bold.otf",
+            "./assets/fonts/HelveticaNeue-Medium.otf"
+          ]
         }
       ]
     ],

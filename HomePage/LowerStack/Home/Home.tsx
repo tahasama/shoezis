@@ -9,7 +9,6 @@ const HomeTab = createMaterialTopTabNavigator();
 
 const Home = () => {
   const [fontsLoaded] = useFonts({
-    "HelveticaNeue-Regular": require("../../../assets/fonts/HelveticaNeue-Regular.otf"),
     "HelveticaNeue-Bold": require("../../../assets/fonts/HelveticaNeue-Bold.otf"),
   });
   return (
