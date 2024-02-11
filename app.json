@@ -11,8 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/HelveticaNeue-Regular.otf"]
+        }
+      ]
     ],
     "ios": {
       "supportsTablet": true
