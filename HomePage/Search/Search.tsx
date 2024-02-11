@@ -7,8 +7,6 @@ const Search = () => {
 
   const handleSearch = (text) => {
     setSearchQuery(text);
-
-    // Your filtering logic goes here
   };
 
   return (
@@ -22,7 +20,6 @@ const Search = () => {
           value={searchQuery}
         />
       </View>
-      {/* Your FlatList or other content goes here */}
     </View>
   );
 };
@@ -31,6 +28,7 @@ const styles = StyleSheet.create({
   container: {
     // flex: 1,
     paddingTop: 16,
+    marginHorizontal: 16,
   },
   searchContainer: {
     flexDirection: "row",
