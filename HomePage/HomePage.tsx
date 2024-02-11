@@ -4,11 +4,17 @@ import React from "react";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 
 import LowerTabs from "./LowerStack/LowerTabs";
+import Search from "./Search/Search";
 
 const Tab = createMaterialTopTabNavigator();
 
 const HomePage = () => {
-  return <LowerTabs />;
+  return (
+    <>
+      <Search />
+      <LowerTabs />
+    </>
+  );
 };
 
 export default HomePage;
