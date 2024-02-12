@@ -1,13 +1,13 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import Home from "./Home/Home";
-import Shop from "./Shop";
-import Profile from "./Profile";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { useFonts } from "expo-font";
-import Bag from "./Bag";
-import Favorite from "./Favorite";
+import Profile from "./MainTabs/Profile/Profile";
+import Bag from "./MainTabs/Bag/Bag";
+import Favorite from "./MainTabs/Favorite/Favorite";
+import Shop from "./MainTabs/Shop/Shop";
+import Home from "./MainTabs/Home/Home";
 
 const Tab = createBottomTabNavigator();
 
